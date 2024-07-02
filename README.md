@@ -9,9 +9,9 @@ EBM-YOLOv8 = YOLOv8(Backbone) + EMA(Neck) + BiFPN(Neck) + Alpha-MPDIou(Bbox. Los
 ![img](https://raw.githubusercontent.com/CherrySama/DefectsDetection/main/docs/EBM-YOLOv8.png)
 
 ## 😎Author 
-   Yinghao He from the North University of China
-   [My Github](https://github.com/CherrySama)
-
+   Yinghao He from the North University of China  
+   [My Github](https://github.com/CherrySama)  
+   [My Email](925782272@qq.com)
 ## 🎯How to start
 
 ### 📦Clone the repository:
