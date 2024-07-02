@@ -9,7 +9,7 @@ def main(opt):
 
     model.info()
 
-    results = model.train(data='VOC_Aluminum.yaml',  # path to data.yaml
+    results = model.train(data='VOC_Aluminum.yaml',  # path to your data.yaml
                         epochs=200, 
                         imgsz=640, 
                         workers=8, 
