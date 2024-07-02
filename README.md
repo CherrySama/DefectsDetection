@@ -9,9 +9,8 @@ EBM-YOLOv8 = YOLOv8(Backbone) + EMA(Neck) + BiFPN(Neck) + Alpha-MPDIou(Bbox. Los
 ![img](https://raw.githubusercontent.com/CherrySama/DefectsDetection/main/docs/EBM-YOLOv8.png)
 
 ## 😎Author 
-   Yinghao He from the North University of China  
-   [My Github](https://github.com/CherrySama)  
-   [My Email](925782272@qq.com)
+   Yinghao He, a graduated student from the North University of China.
+
 ## 🎯How to start
 
 ### 📦Clone the repository:
@@ -42,17 +41,17 @@ And if you want to use `train.py` to train your model, you should revise line12 
                         )
 ```
 ##### Example usage: yolo train data=VOC_Aluminum.yaml
-parent
-├── ultralytics
+parent  
+├── ultralytics  
 └── datasets
 #### Train the model:
-##### CLI
+#### CLI
 you can train the YOLOv8 model with a yolo command:
 ```bash
 yolo train --data data/defects.yaml --weights yolov8n.pt --epochs 300 --batch-size 16 --device 0 --project runs/train --name defects
 ```
 `yolo` can be used for a variety of tasks and modes and accepts additional arguments, i.e. `imgsz=640`. See the YOLOv8 [CLI Docs](https://docs.ultralytics.com/usage/cli) for examples.
-##### Python
+#### Python
 you can also train the YOLOv8 model with a python script:
 ```python
 import torch
@@ -77,3 +76,7 @@ See YOLOv8 [Python Docs](https://docs.ultralytics.com/usage/python) for more exa
    streamlit run demo.py
    ```
 Open the web browser and visit `http://localhost:8501` to start the web UI.
+
+## 😮‍💨Last words
+This is my graduation project, I'll be glad that you could use it as your baseline model or just simply have a look.  
+If you have any questions or suggestions, please feel free to contact me at the following Email address 925782272@qq.com or create a new issue.
