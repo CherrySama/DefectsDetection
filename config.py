@@ -27,14 +27,14 @@ ROOT = root_path.relative_to(Path.cwd())
 SOURCES_LIST = ["Image", "Video", "Webcam"]
 
 # trained model weights config
-DETECTION_MODEL_DIR = ROOT / 'runs' / 'detect_autodl'
+DETECTION_MODEL_DIR = ROOT / 'weights'
 
-YOLOv8s = "train16/weights/best.pt"
-YOLOv8s_EMA = "train13/weights/best.pt"
-YOLOv8s_BiFPN = "train14/weights/best.pt"
-YOLOv8s_Mpdiou = "train18/weights/best.pt"
-YOLOv8s_Mish = "train12/weights/best.pt"
-YOLOv8s_EBM = "train19/weights/best.pt"
+YOLOv8s = "YOLOv8s.pt"
+YOLOv8s_EMA = "YOLOv8s_EMA.pt"
+YOLOv8s_BiFPN = "YOLOv8s_BiFPN.pt"
+YOLOv8s_Mpdiou = "YOLOv8s_Mpdiou.pt"
+YOLOv8s_Mish = "YOLOv8s_Mish.pt"
+YOLOv8s_EBM = "YOLOv8s_EBM.pt"
 
 DETECTION_MODEL_LIST = [
     'YOLOv8s',
