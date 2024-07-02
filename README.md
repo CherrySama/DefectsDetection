@@ -78,5 +78,5 @@ See YOLOv8 [Python Docs](https://docs.ultralytics.com/usage/python) for more exa
 Open the web browser and visit `http://localhost:8501` to start the web UI.
 
 ## 😮‍💨Last words
-This is my graduation project, I'll be glad that you could use it as your baseline model or just simply have a look.  
+This is my little graduation project, I'll be glad that you could use it as your baseline model or just simply have a look.  
 If you have any questions or suggestions, please feel free to contact me at the following Email address 925782272@qq.com or create a new issue.
