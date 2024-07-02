@@ -8,6 +8,10 @@ EBM-YOLOv8 = YOLOv8(Backbone) + EMA(Neck) + BiFPN(Neck) + Alpha-MPDIou(Bbox. Los
 
 ![img](https://raw.githubusercontent.com/CherrySama/DefectsDetection/main/docs/EBM-YOLOv8.png)
 
+## 😎Author 
+   Yinghao He from the North University of China
+   [My Github](https://github.com/CherrySama)
+
 ## 🎯How to start
 
 ### 📦Clone the repository:
@@ -26,6 +30,21 @@ Pip install the ultralytics package including all [requirements](https://github.
    ```
 
 ### 🤯Usage:
+#### Dataset:
+this project do not have its own dataset, you can write your own dataset yaml cfg and put your dateset in the 'datasets' floder.
+And if you want to use `train.py` to train your model, you should revise line12 in `train.py` to make sure that you could train your model successfully:
+```python
+    results = model.train(data='VOC_Aluminum.yaml',  # path to your data.yaml
+                        epochs=200, 
+                        imgsz=640, 
+                        workers=8, 
+                        batch=16,
+                        )
+```
+##### Example usage: yolo train data=VOC_Aluminum.yaml
+parent
+├── ultralytics
+└── datasets
 #### Train the model:
 ##### CLI
 you can train the YOLOv8 model with a yolo command:
